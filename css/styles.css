@@ -1,0 +1,181 @@
+@font-face {
+    font-family: "QazaqFont";
+    src: url("../fonts/QazaqFont.ttf.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Font1";
+    src: url("../fonts/QazaqFont.ttf.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Font2";
+    src: url("../fonts/Qazaqfont-Regular.woff") format("woff");
+}
+
+.custom-font {
+    font-family: "QazaqFont", sans-serif;
+    font-size: 70px;
+}
+
+.custom-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.custom-col > .font-download {
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+.font-menu {
+    position: absolute;
+    display: none;
+    background-color: #FFF5EE;
+    border: 1px solid #FFF5EE;
+    padding: 5px;
+}
+
+#fontSelect {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#fontSamples {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+#fontSamples span {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+textarea {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+body {
+    font-family: "Times New Roman", serif;
+    background-color: #FFF5EE;
+}
+
+.container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #FFF5EE;
+}
+
+h1 {
+    font-size: 36px;
+    color: #23177D;
+    margin-bottom: 30px;
+}
+
+.navbar {
+    background-color: #FCAF31;
+    padding: 10px 0;
+}
+
+.custom-navbar {
+    background-color: #23177D;
+    padding: 10px 0;
+}
+
+.menucontainer {
+    background-color: #23177D;
+    padding: 10px 0;
+}
+
+.menucontainer .container {
+    display: flex;
+    justify-content: center;
+    background-color: #23177D;
+    padding: 10px 0;
+}
+
+.nav-link {
+    font-size: 18px;
+    margin-right: 20px;
+    color: #FFF5EE;
+    text-decoration: none;
+    font-family: "Times New Roman", sans-serif;
+}
+
+textarea {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#outputText {
+    font-size: 90px;
+    color: #23177D;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#payment {
+    text-align: center;
+}
+
+.font-download {
+    background-color: #f8f8f8;
+    border: 1px solid #FCAF31;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.font-download h2 {
+    font-size: 28px;
+    color: #23177D;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.footer {
+    background-color: #23177D;
+    color: #FFF5EE;
+    padding: 10px;
+    text-align: center;
+    margin-top: 0px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.qr-container {
+    display: flex;
+    justify-content: center;
+}
+
+.pc-image {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+}
+
+.qr-image {
+    width: 300px;
+    height: 300px;
+    margin: 0 10px;
+}
+
+.ms-image {
+    width: 200px;
+    height: auto;
+    margin: 0 10px;
+}
+
+
+
+
+
