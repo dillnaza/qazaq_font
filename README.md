@@ -1,2 +1,1 @@
 # qazaq.Font
-# qazaq.Font
